@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-for-data-engineering"
+version = "0.1.0"
+description = "Beginner-to-advanced Python for Data Engineering course repository"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pytest==8.4.1",
+    "requests==2.32.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

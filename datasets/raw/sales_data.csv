@@ -1,0 +1,6 @@
+order_id,customer_id,order_date,country,amount,status
+A100,C001,2026-03-25,mm,125.50,completed
+A101,C002,2026-03-25,sg,89.00,completed
+A102,C003,2026-03-26,th,0.00,cancelled
+A103,C004,2026-03-26,MM,210.75,completed
+A104,C005,2026-03-27, ,45.25,completed
